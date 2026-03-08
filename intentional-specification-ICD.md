@@ -1,6 +1,6 @@
 # Intentional Specification: Intentions, Considerations, and Decisions
 
-**Status:** ICD file for [Intentional Specification](./intentional-specification). Captures the reasoning behind the documentation strategy itself.
+**Status:** ICD file for [Intentional Specification](./intentional-specification.md). Follows [Intentional Specification](https://github.com/Reliable-Collaboration/intentional-specification). Captures the reasoning behind the documentation strategy itself.
 
 ---
 

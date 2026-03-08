@@ -11,12 +11,17 @@ Intentional Specification has two rules:
 
 The ICD file preserves *why* decisions were made, what alternatives were rejected, and what questions remain open. This context prevents future authors (human or AI) from inadvertently undoing carefully reasoned decisions.
 
+## For AI Agents
+
+If you arrived here from a link in an ICD file's status line: read the [full specification](./intentional-specification.md), particularly the **"For AI Agents"** section, before editing the specification or ICD you were working on. It explains how to read, write, and maintain ICD files correctly.
+
 ## Files
 
 | File | Purpose |
 |------|---------|
-| [intentional-specification.md](./intentional-specification.md) | The strategy specification |
+| [intentional-specification.md](./intentional-specification.md) | The strategy specification (start here) |
 | [intentional-specification-ICD.md](./intentional-specification-ICD.md) | Design history for the strategy itself |
+| [CLAUDE.md](./CLAUDE.md) | Key conventions for AI agents working in this repository |
 
 The specification is self-documenting — it follows the strategy it describes.
 

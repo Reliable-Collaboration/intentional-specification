@@ -63,9 +63,9 @@ An ICD file is a journal of the specification's design. It captures what was con
 
 ### Structure
 
-**Status line** — A one-line description of the file's role.
+**Status line** — A one-line description of the file's role, linking to both the paired specification and the Intentional Specification strategy. The strategy link ensures that any reader (human or AI) encountering the ICD file can discover how ICD files work, even if they arrived at the file directly rather than through the specification's completeness header.
 
-> **Status:** ICD file for [Document Name]. Captures the reasoning journey behind the specification.
+> **Status:** ICD file for [Document Name](./document-name.md). Follows [Intentional Specification](https://github.com/Reliable-Collaboration/intentional-specification). Captures the reasoning journey behind the specification.
 
 **Numbered sections** — Each section represents a significant consideration or decision. Sections accumulate as the specification evolves. They are not rewritten — new sections are added, and earlier sections are annotated if a decision is later revised.
 
@@ -124,7 +124,7 @@ The open question count comes directly from the ICD file's "Unanswered Questions
 
 ICD files are designed to be consumed by AI agents co-authoring specifications. When working on a specification:
 
-1. **Read the ICD first.** Before proposing changes to a specification, read its ICD file to understand which decisions are settled, which alternatives were already rejected, and what reasoning led to the current state. This prevents re-litigating closed questions.
+1. **Read the ICD first.** Before proposing changes to a specification, read its ICD file to understand which decisions are settled, which alternatives were already rejected, and what reasoning led to the current state. This prevents re-litigating closed questions. If you encounter an ICD file and are unfamiliar with the format, follow the Intentional Specification link in its status line to learn the conventions before proceeding.
 
 2. **Write to the ICD as you work.** When you make a decision during co-authoring — choose one approach over another, resolve an ambiguity, adopt a convention — capture the reasoning in a new numbered section of the ICD. This preserves context for the next session.
 
@@ -142,7 +142,7 @@ The ICD is not a log of what the AI did. It is a record of what was considered a
 
 1. Create the specification file and its ICD file together.
 2. Add the completeness header to the specification.
-3. Start the ICD with a status line and at least one section capturing the initial intentions.
+3. Start the ICD with a status line that links to the specification and to [Intentional Specification](https://github.com/Reliable-Collaboration/intentional-specification), plus at least one section capturing the initial intentions.
 4. List initial open questions in the "Unanswered Questions and Considerations" section.
 5. Set the completeness phase to **Outline** or **Early Draft**.
 
